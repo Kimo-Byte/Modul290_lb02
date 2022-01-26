@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style/style.css">
+    <title>Registration</title>
+</head>
+
+<header>
+  Melden Sie sich hier an!
+</header>
+
+<body>
+<main>
+    <div class="container">
+        <form id="form" class="form">
+            <h2>Kontakformular</h2>
+            <div class="form-control">
+                <label for="firstName">Vorname</label>
+                <input type="text" id="firstName" placeholder="Vorname eintippen" />
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="lastName">Nachname</label>
+                <input type="text" id="lastName" placeholder="Nachname eintippen" />
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="email">E-Mail</label>
+                <input type="text" id="email" placeholder="E-Mail eintippen" />
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="phone">Telefonnummer</label>
+                <input type="text" id="phone" placeholder="Telefonnummer eintippen" />
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="password">Passwort</label>
+                <input type="text" id="password" placeholder="Passwort eintippen" />
+                <small>Error message</small>
+            </div>
+            <button type="submit">Hier bestätigen</button>
+        </form>
+    </div>
+    <script src="script/validate-inputs.js"></script>
+    <script src="script/network.js"></script>
+</main>
+<footer>
+    <h3>BZZ Horgen Modul 290 LB02<br>Speichere deine Daten in SQL!</h3>
+</footer>
+</body>
+
+</html>
